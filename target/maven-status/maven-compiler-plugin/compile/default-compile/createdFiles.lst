@@ -1,0 +1,12 @@
+com\scp\login\LoginPageObject.class
+com\scp\util\App.class
+com\scp\util\SeleniumUtil.class
+com\scp\util\AppConstants$BrowserTypes.class
+com\scp\util\AppConstants.class
+com\scp\db\GenerateTestReport.class
+com\scp\util\SeleniumUtil$1.class
+com\scp\db\CaptureTestResults.class
+com\scp\login\DashBoardPageObject.class
+com\scp\db\DBAutomationDemo.class
+com\scp\login\Remarks.class
+com\scp\db\Emp.class

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumFromScratch by groups" duration-ms="94" started-at="2018-02-18T07:24:07Z" finished-at="2018-02-18T07:24:07Z">
+    <groups>
+      <group name="A">
+        <method signature="ATest.f4()[pri:0, instance:com.scp.demo.ATest@59f99ea]" name="f4" class="com.scp.demo.ATest"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="BTest.b3()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b3" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b4()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b4" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b5()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b5" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b8()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b8" class="com.scp.demo.BTest"/>
+      </group> <!-- B -->
+      <group name="smoke">
+        <method signature="BTest.b3()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b3" class="com.scp.demo.BTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ATest.f4()[pri:0, instance:com.scp.demo.ATest@59f99ea]" name="f4" class="com.scp.demo.ATest"/>
+        <method signature="BTest.b3()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b3" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b4()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b4" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b5()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b5" class="com.scp.demo.BTest"/>
+        <method signature="BTest.b8()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b8" class="com.scp.demo.BTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="GRP-sanity" duration-ms="94" started-at="2018-02-18T07:24:07Z" finished-at="2018-02-18T07:24:07Z">
+      <class name="com.scp.demo.BTest">
+        <test-method status="PASS" signature="b3()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b3" duration-ms="16" started-at="2018-02-18T12:54:07Z" finished-at="2018-02-18T12:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3 -->
+        <test-method status="PASS" signature="b4()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b4" duration-ms="15" started-at="2018-02-18T12:54:07Z" finished-at="2018-02-18T12:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4 -->
+        <test-method status="PASS" signature="b5()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b5" duration-ms="0" started-at="2018-02-18T12:54:07Z" finished-at="2018-02-18T12:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5 -->
+        <test-method status="PASS" signature="b8()[pri:0, instance:com.scp.demo.BTest@3532ec19]" name="b8" duration-ms="0" started-at="2018-02-18T12:54:07Z" finished-at="2018-02-18T12:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b8 -->
+      </class> <!-- com.scp.demo.BTest -->
+      <class name="com.scp.demo.ATest">
+        <test-method status="PASS" signature="f4()[pri:0, instance:com.scp.demo.ATest@59f99ea]" name="f4" duration-ms="16" started-at="2018-02-18T12:54:07Z" finished-at="2018-02-18T12:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+      </class> <!-- com.scp.demo.ATest -->
+    </test> <!-- GRP-sanity -->
+  </suite> <!-- SeleniumFromScratch by groups -->
+</testng-results>
